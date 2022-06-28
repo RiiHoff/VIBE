@@ -3,5 +3,6 @@ data
 __pycache__/
 vibe-env/
 output/
+input
 *.mp4
 results

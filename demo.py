@@ -35,6 +35,7 @@ from lib.dataset.inference import Inference
 from lib.utils.smooth_pose import smooth_pose
 from lib.data_utils.kp_utils import convert_kps
 from lib.utils.pose_tracker import run_posetracker
+from lib.utils.output_joints import output_joints3d
 
 from lib.utils.demo_utils import (
     download_youtube_clip,
@@ -350,6 +351,7 @@ def main(args):
         shutil.rmtree(output_img_folder)
 
     shutil.rmtree(image_folder)
+    # output_joints3d()
     print('================= END =================')
 
 

@@ -1,0 +1,300 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Jun 28 09:57:48 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/user/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+MODULEPATH = /etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/modulefiles:/opt/modulefiles:/opt/nvidia/hpc_sdk/modulefiles
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/user/IIM_students/oshima/VIBE
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{}}
+# environment
+_ = /home/user/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOADEDMODULES_modshare = slurm/20.02.6:1:go/1.16.4:1:singularity/3.7.3:1
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/user
+# environment
+_LMFILES__modshare = /opt/modulefiles/singularity/3.7.3:1:/opt/modulefiles/slurm/20.02.6:1:/opt/modulefiles/go/1.16.4:1
+# environment
+SSH_CONNECTION = 192.168.11.112 52177 192.168.11.10 22
+# environment
+PATH = /home/user/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/user/anaconda3/bin:/home/user/anaconda3/condabin:/opt/slurm/20.02.6/bin:/opt/singularity/3.7.3/bin:/opt/go/1.16.4/bin:/opt/go/1.16.4/pkg/tool/linux_amd64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+MODULES_LMPREREQ = singularity/3.7.3&go/1.16.4
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+MODULES_CMD = /usr/lib/x86_64-linux-gnu/modulecmd.tcl
+# environment
+MODULES_LMNOTUASKED = go/1.16.4
+# environment
+BASH_ENV = /usr/share/modules/init/bash
+# environment
+CONDA_PREFIX = /home/user/anaconda3
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-a8db2ef7-7bbf-46d6-aa65-85756d2bd2bf.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /home/user/anaconda3/bin/conda
+# environment
+SLURM_ROOT = /opt/slurm/20.02.6
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/user/IIM_students/oshima/VIBE
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MANPATH = /opt/slurm/20.02.6/share/man:/usr/local/share/man:/usr/share/man
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/user
+# environment
+LD_LIBRARY_PATH = /opt/slurm/20.02.6/lib
+# environment
+MODULEPATH_modshare = /etc/environment-modules/modules:1:/opt/modulefiles:1:/opt/nvidia/hpc_sdk/modulefiles:1:/usr/share/modules/versions:1:/usr/share/modules/modulefiles:1
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+MODULESHOME = /usr/share/modules
+# environment
+LOGNAME = user
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_DEFAULT_ENV = base
+# default
+MAKE = $(MAKE_COMMAND)
+ 
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+XDG_SESSION_ID = 4333
+# environment
+USER = user
+# makefile
+.DEFAULT_GOAL := all
+# environment
+GOROOT = /opt/go/1.16.4
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := make
+# environment
+PATH_modshare = /usr/bin:1:/usr/local/bin:1:/opt/singularity/3.7.3/bin:1:/opt/go/1.16.4/pkg/tool/linux_amd64:1:/bin:1:/opt/slurm/20.02.6/bin:1:/snap/bin:1:/sbin:1:/usr/sbin:1:/usr/games:1:/opt/go/1.16.4/bin:1:/usr/local/sbin:1:/usr/local/games:1
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+MODULES_LMPREREQ_modshare = singularity/3.7.3&go/1.16.4:1
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 192.168.11.112 52177 22
+# environment
+LOADEDMODULES = go/1.16.4:singularity/3.7.3:slurm/20.02.6
+# environment
+MODULES_LMNOTUASKED_modshare = go/1.16.4:1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/user/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/helpers/browser.sh
+# environment
+SALLOC_ACCOUNT = user
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+_LMFILES_ = /opt/modulefiles/go/1.16.4:/opt/modulefiles/singularity/3.7.3:/opt/modulefiles/slurm/20.02.6
+# environment
+MODULES_VERBOSITY = concise
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /home/user/anaconda3/bin/python
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MANPATH_modshare = /usr/local/share/man:1:/opt/slurm/20.02.6/share/man:1:/usr/share/man:1
+# environment
+_CE_M = 
+# environment
+LD_LIBRARY_PATH_modshare = /opt/slurm/20.02.6/lib:1
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+ENV = /usr/share/modules/init/profile.sh
+# environment
+LANG = C
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+MOTD_SHOWN = pam
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=101/1024=10%, Rehash=0, Collisions=10/129=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66310, inode 114831895): 27 files, no impossibilities.
+
+ 
+# 27 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 2):
+	python demo.py --vid_file fig_baby.mp4 --output_folder output/
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-27 09:11:08.994638532
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 32 / storage = 304 B / avg = 9 B
+# current buf: size = 8162 B / used = 304 B / count = 32 / avg = 9 B
+
+# strcache performance: lookups = 39 / hit rate = 17%
+# hash-table stats:
+# Load=32/8192=0%, Rehash=0, Collisions=1/39=3%
+# Finished Make data base on Tue Jun 28 09:57:48 2022
+
+ 

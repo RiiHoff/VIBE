@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/user/IIM_students/oshima/VIBE'
+python demo.py --vid_file fig_baby.mp4 --output_folder output/
+make: Leaving directory '/home/user/IIM_students/oshima/VIBE'
+ 
