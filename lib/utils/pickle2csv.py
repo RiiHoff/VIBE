@@ -4,7 +4,7 @@ import pandas as pd
 import joblib # you may use native pickle here as well
 from lib.utils.output_joints import mk_3dheader
 
-def main():
+def pickle2csv():
     # create folder and file to save csv
     args = sys.argv
     folder = args[1]
@@ -37,6 +37,3 @@ def main():
 
     # output
     df.to_csv(save_path, index=False, header=j_header)
-
-if __name__ == '__main__':
-    main()

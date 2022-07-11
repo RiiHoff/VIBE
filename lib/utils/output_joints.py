@@ -58,6 +58,7 @@ def mk_3dheader():
         joint_list.append(joint + '_y')
         joint_list.append(joint + '_z')
 
+    return joint_list
 
 def mk_2dheader():
     joint_list = []

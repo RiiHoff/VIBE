@@ -5,9 +5,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Tue Jun 28 09:57:48 2022
+# Make data base, printed on Mon Jul 11 16:36:57 2022
 
 # Variables
 
@@ -39,10 +38,12 @@ MAKE_VERSION := 4.2.1
 CURDIR := /home/user/IIM_students/oshima/VIBE
 # makefile
 SHELL = /bin/sh
+# makefile (from 'Makefile', line 1)
+LIST1 := ab001 ab002 ab003 ab004 ab005 ab006
 # environment
 VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{}}
 # environment
-_ = /home/user/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/node
+_ = /home/user/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/node
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # 'override' directive
@@ -62,9 +63,11 @@ VSCODE_CWD = /home/user
 # environment
 _LMFILES__modshare = /opt/modulefiles/singularity/3.7.3:1:/opt/modulefiles/slurm/20.02.6:1:/opt/modulefiles/go/1.16.4:1
 # environment
-SSH_CONNECTION = 192.168.11.112 52177 192.168.11.10 22
+SSH_CONNECTION = 192.168.11.84 53724 192.168.11.10 22
 # environment
-PATH = /home/user/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/user/anaconda3/bin:/home/user/anaconda3/condabin:/opt/slurm/20.02.6/bin:/opt/singularity/3.7.3/bin:/opt/go/1.16.4/bin:/opt/go/1.16.4/pkg/tool/linux_amd64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/user/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/bin:/home/user/anaconda3/bin:/home/user/anaconda3/condabin:/home/user/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/bin:/opt/slurm/20.02.6/bin:/opt/singularity/3.7.3/bin:/opt/go/1.16.4/bin:/opt/go/1.16.4/pkg/tool/linux_amd64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'Makefile', line 2)
+LIST2 := pa001 pa002 pa003 pa004 pa005 pa006 pa007 pa008 pa009 pa010 pa011
 # environment
 MODULES_LMPREREQ = singularity/3.7.3&go/1.16.4
 # environment
@@ -80,7 +83,7 @@ CONDA_PREFIX = /home/user/anaconda3
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-a8db2ef7-7bbf-46d6-aa65-85756d2bd2bf.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-f00eb4c6-b85a-4c27-a4ac-2073ca5ecd9d.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -102,7 +105,7 @@ PWD = /home/user/IIM_students/oshima/VIBE
 # environment
 MANPATH = /opt/slurm/20.02.6/share/man:/usr/local/share/man:/usr/share/man
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
 # environment
 HOME = /home/user
 # environment
@@ -131,13 +134,12 @@ MAKELEVEL := 0
 CONDA_DEFAULT_ENV = base
 # default
 MAKE = $(MAKE_COMMAND)
- 
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 0
+SHLVL = 1
 # environment
-XDG_SESSION_ID = 4333
+XDG_SESSION_ID = 7514
 # environment
 USER = user
 # makefile
@@ -163,7 +165,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 192.168.11.112 52177 22
+SSH_CLIENT = 192.168.11.84 53724 22
 # environment
 LOADEDMODULES = go/1.16.4:singularity/3.7.3:slurm/20.02.6
 # environment
@@ -171,11 +173,9 @@ MODULES_LMNOTUASKED_modshare = go/1.16.4:1
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /home/user/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/helpers/browser.sh
+BROWSER = /home/user/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/bin/helpers/browser.sh
 # environment
 SALLOC_ACCOUNT = user
-# environment
-VSCODE_HANDLES_SIGPIPE = true
 # default
 MAKEFILES := 
 # automatic
@@ -200,6 +200,8 @@ _CE_M =
 LD_LIBRARY_PATH_modshare = /opt/slurm/20.02.6/lib:1
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/user/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/remote/node_modules
 # default
 .RECIPEPREFIX := 
 # default
@@ -215,7 +217,7 @@ MOTD_SHOWN = pam
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=101/1024=10%, Rehash=0, Collisions=10/129=8%
+# Load=103/1024=10%, Rehash=0, Collisions=10/131=8%
 
 # Pattern-specific Variable Values
 
@@ -225,7 +227,6 @@ _CE_CONDA =
 
 # . (device 66310, inode 114831895): 27 files, no impossibilities.
 
- 
 # 27 files, no impossibilities in 1 directories.
 
 # Implicit Rules
@@ -259,8 +260,188 @@ all:
 # ? := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/11=9%
-#  recipe to execute (from 'Makefile', line 2):
-	python demo.py --vid_file fig_baby.mp4 --output_folder output/
+#  recipe to execute (from 'Makefile', line 5):
+	@echo pa003_side
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_side_fp01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_side_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_side_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_side_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_side_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_side_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_side_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_side_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	@echo pa003_skew
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_np01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_np02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_np03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_nr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_nr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_nr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_nr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_nr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fp01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	@echo pa004
+	@echo pa004_fore
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_np01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_np02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_np03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_nr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_nr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_nr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_nr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_nr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+ 
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	@echo pa004_side
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_np01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_np02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_np03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_nr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_nr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_nr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_nr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_nr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_fp01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_side_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	@echo pa004_skew
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_np01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_np02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_np03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_nr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_nr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_nr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_nr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_nr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fp01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	@echo pa005
+	@echo pa005_side
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_np01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_np02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_np03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_nr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_nr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_nr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_nr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_nr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_fp01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	@echo pa006
+	@echo pa006_side
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_np01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_np02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_np03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_nr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_nr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_nr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_nr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_nr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_fp01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	@echo pa008
+	@echo pa008_side
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_np01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_np02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_np03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_nr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_nr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_nr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_nr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_nr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_fp01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	@echo pa009
+	@echo pa009_side
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_np01_f.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_np02_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_np03_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_nr01_f.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_nr02_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_nr03_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_nr04_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_nr05_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_fp01_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_fp02_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_fp03_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_fr01_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_fr02_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_fr03_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_fr04_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_fr05_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	@echo pa010
+	@echo pa010_side
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_np01_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_np02_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_np03_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_nr01_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_nr02_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_nr03_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_nr04_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_nr05_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_fp01_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_fp02_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_fp03_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_fr01_f.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_fr02_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_fr03_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_fr04_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_fr05_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	@echo continaution
+	python demo.py --vid_file ./sts_data/able_body/pa001/pa001_side_continaution.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa002/pa002_side_continaution.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa003/pa003_side_continaution.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa004/pa004_side_continaution.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa005/pa005_side_continaution.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa006/pa006_side_continaution.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa008/pa008_side_continaution.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_continaution_f.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa009/pa009_side_continaution_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_continaution_f.mp4 --output_folder output/sts_result_vibe/ --save_obj
+	python demo.py --vid_file ./sts_data/able_body/pa010/pa010_side_continaution_t.mp4 --output_folder output/sts_result_vibe/ --save_obj
 
 # Not a target:
 .SUFFIXES:
@@ -271,7 +452,7 @@ all:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-27 09:11:08.994638532
+#  Last modified 2022-07-01 08:41:18.673933215
 #  File has been updated.
 #  Successfully updated.
 
@@ -289,12 +470,12 @@ Makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 32 / storage = 304 B / avg = 9 B
-# current buf: size = 8162 B / used = 304 B / count = 32 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 32 / storage = 285 B / avg = 8 B
+# current buf: size = 8162 B / used = 285 B / count = 32 / avg = 8 B
 
 # strcache performance: lookups = 39 / hit rate = 17%
 # hash-table stats:
 # Load=32/8192=0%, Rehash=0, Collisions=1/39=3%
-# Finished Make data base on Tue Jun 28 09:57:48 2022
+# Finished Make data base on Mon Jul 11 16:36:57 2022
 
  
