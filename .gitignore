@@ -7,3 +7,5 @@ input
 *.mp4
 results
 joint_dist
+sts_data
+pickle_output.py

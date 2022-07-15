@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 15 09:33:56 2022
+# Make data base, printed on Fri Jul 15 09:55:58 2022
 
 # Variables
 
@@ -79,7 +79,7 @@ CONDA_PREFIX = /home/user/anaconda3
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-308b1ba0-40d7-403f-ace2-93c0e654d2de.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-05d59c11-e42e-493a-9816-ad619347abd3.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -278,6 +278,7 @@ all:
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+ 
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
@@ -296,7 +297,6 @@ all:
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
- 
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
@@ -446,6 +446,7 @@ all:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
+ 
 #  Last modified 2022-07-01 08:41:18.673933215
 #  File has been updated.
 #  Successfully updated.
@@ -457,7 +458,6 @@ Makefile:
 #  File has not been updated.
 
 # files hash-table stats:
- 
 # Load=4/1024=0%, Rehash=0, Collisions=0/16=0%
 # VPATH Search Paths
 
@@ -471,6 +471,6 @@ Makefile:
 # strcache performance: lookups = 40 / hit rate = 17%
 # hash-table stats:
 # Load=33/8192=0%, Rehash=0, Collisions=1/40=2%
-# Finished Make data base on Fri Jul 15 09:33:56 2022
+# Finished Make data base on Fri Jul 15 09:55:58 2022
 
  
