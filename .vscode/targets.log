@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 11 16:36:57 2022
+# Make data base, printed on Fri Jul 15 09:33:56 2022
 
 # Variables
 
@@ -22,8 +22,6 @@ XDG_SESSION_CLASS = user
 VSCODE_AGENT_FOLDER = /home/user/.vscode-server
 # environment
 XDG_SESSION_TYPE = tty
-# environment
-VSCODE_LOG_NATIVE = false
 # environment
 MODULEPATH = /etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/modulefiles:/opt/modulefiles:/opt/nvidia/hpc_sdk/modulefiles
 # automatic
@@ -43,7 +41,7 @@ LIST1 := ab001 ab002 ab003 ab004 ab005 ab006
 # environment
 VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{}}
 # environment
-_ = /home/user/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/node
+_ = /home/user/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/node
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # 'override' directive
@@ -55,17 +53,15 @@ XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/user
 # environment
 _LMFILES__modshare = /opt/modulefiles/singularity/3.7.3:1:/opt/modulefiles/slurm/20.02.6:1:/opt/modulefiles/go/1.16.4:1
 # environment
-SSH_CONNECTION = 192.168.11.84 53724 192.168.11.10 22
+SSH_CONNECTION = 192.168.11.69 49417 192.168.11.10 22
 # environment
-PATH = /home/user/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/bin:/home/user/anaconda3/bin:/home/user/anaconda3/condabin:/home/user/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/bin:/opt/slurm/20.02.6/bin:/opt/singularity/3.7.3/bin:/opt/go/1.16.4/bin:/opt/go/1.16.4/pkg/tool/linux_amd64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/user/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/remote-cli:/home/user/anaconda3/bin:/home/user/anaconda3/condabin:/opt/slurm/20.02.6/bin:/opt/singularity/3.7.3/bin:/opt/go/1.16.4/bin:/opt/go/1.16.4/pkg/tool/linux_amd64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # makefile (from 'Makefile', line 2)
 LIST2 := pa001 pa002 pa003 pa004 pa005 pa006 pa007 pa008 pa009 pa010 pa011
 # environment
@@ -81,9 +77,9 @@ BASH_ENV = /usr/share/modules/init/bash
 # environment
 CONDA_PREFIX = /home/user/anaconda3
 # environment
-VSCODE_LOG_STACK = false
+ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-f00eb4c6-b85a-4c27-a4ac-2073ca5ecd9d.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-308b1ba0-40d7-403f-ace2-93c0e654d2de.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -95,8 +91,6 @@ CONDA_EXE = /home/user/anaconda3/bin/conda
 # environment
 SLURM_ROOT = /opt/slurm/20.02.6
 # environment
-VSCODE_PIPE_LOGGING = true
-# environment
 PWD = /home/user/IIM_students/oshima/VIBE
 # default
 .LOADED := 
@@ -105,7 +99,7 @@ PWD = /home/user/IIM_students/oshima/VIBE
 # environment
 MANPATH = /opt/slurm/20.02.6/share/man:/usr/local/share/man:/usr/share/man
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /home/user
 # environment
@@ -137,9 +131,9 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 1
+SHLVL = 0
 # environment
-XDG_SESSION_ID = 7514
+XDG_SESSION_ID = 6
 # environment
 USER = user
 # makefile
@@ -153,6 +147,8 @@ CONDA_SHLVL = 1
 # default
 MAKE_COMMAND := make
 # environment
+OLDPWD = /home/user/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+# environment
 PATH_modshare = /usr/bin:1:/usr/local/bin:1:/opt/singularity/3.7.3/bin:1:/opt/go/1.16.4/pkg/tool/linux_amd64:1:/bin:1:/opt/slurm/20.02.6/bin:1:/snap/bin:1:/sbin:1:/usr/sbin:1:/usr/games:1:/opt/go/1.16.4/bin:1:/usr/local/sbin:1:/usr/local/games:1
 # default
 .VARIABLES := 
@@ -165,7 +161,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 192.168.11.84 53724 22
+SSH_CLIENT = 192.168.11.69 49417 22
 # environment
 LOADEDMODULES = go/1.16.4:singularity/3.7.3:slurm/20.02.6
 # environment
@@ -173,9 +169,11 @@ MODULES_LMNOTUASKED_modshare = go/1.16.4:1
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /home/user/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/bin/helpers/browser.sh
+BROWSER = /home/user/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/helpers/browser.sh
 # environment
 SALLOC_ACCOUNT = user
+# environment
+VSCODE_HANDLES_SIGPIPE = true
 # default
 MAKEFILES := 
 # automatic
@@ -200,8 +198,6 @@ _CE_M =
 LD_LIBRARY_PATH_modshare = /opt/slurm/20.02.6/lib:1
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# environment
-VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/user/.vscode-server/bin/3c4e3df9e89829dce27b7b5c24508306b151f30d/remote/node_modules
 # default
 .RECIPEPREFIX := 
 # default
@@ -211,13 +207,11 @@ ENV = /usr/share/modules/init/profile.sh
 # environment
 LANG = C
 # environment
-VSCODE_EXTHOST_WILL_SEND_SOCKET = true
-# environment
 MOTD_SHOWN = pam
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=103/1024=10%, Rehash=0, Collisions=10/131=8%
+# Load=100/1024=10%, Rehash=0, Collisions=10/128=8%
 
 # Pattern-specific Variable Values
 
@@ -225,9 +219,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 66310, inode 114831895): 27 files, no impossibilities.
+# . (device 66310, inode 114831895): 28 files, no impossibilities.
 
-# 27 files, no impossibilities in 1 directories.
+# 28 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -301,8 +295,8 @@ all:
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
- 
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
+ 
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
@@ -463,6 +457,7 @@ Makefile:
 #  File has not been updated.
 
 # files hash-table stats:
+ 
 # Load=4/1024=0%, Rehash=0, Collisions=0/16=0%
 # VPATH Search Paths
 
@@ -470,12 +465,12 @@ Makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 32 / storage = 285 B / avg = 8 B
-# current buf: size = 8162 B / used = 285 B / count = 32 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 33 / storage = 296 B / avg = 8 B
+# current buf: size = 8162 B / used = 296 B / count = 33 / avg = 8 B
 
-# strcache performance: lookups = 39 / hit rate = 17%
+# strcache performance: lookups = 40 / hit rate = 17%
 # hash-table stats:
-# Load=32/8192=0%, Rehash=0, Collisions=1/39=3%
-# Finished Make data base on Mon Jul 11 16:36:57 2022
+# Load=33/8192=0%, Rehash=0, Collisions=1/40=2%
+# Finished Make data base on Fri Jul 15 09:33:56 2022
 
  
