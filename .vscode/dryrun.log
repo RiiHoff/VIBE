@@ -73,7 +73,6 @@ python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_nr05.mp4 --output_
 python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fp01.mp4 --output_folder output/sts_result_vibe/ --save_obj
 python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
 python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
- 
 python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
 python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
 python demo.py --vid_file ./sts_data/patient/pa004/pa004_skew_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj

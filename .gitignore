@@ -8,4 +8,6 @@ input
 results
 joint_dist
 sts_data
-pickle_output.py
+execution.sh
+csv/
+tmp.txt

@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 15 09:55:58 2022
+# Make data base, printed on Fri Jul 29 13:02:37 2022
 
 # Variables
 
@@ -41,7 +41,7 @@ LIST1 := ab001 ab002 ab003 ab004 ab005 ab006
 # environment
 VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{}}
 # environment
-_ = /home/user/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/node
+_ = /home/user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/node
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # 'override' directive
@@ -59,9 +59,9 @@ VSCODE_CWD = /home/user
 # environment
 _LMFILES__modshare = /opt/modulefiles/singularity/3.7.3:1:/opt/modulefiles/slurm/20.02.6:1:/opt/modulefiles/go/1.16.4:1
 # environment
-SSH_CONNECTION = 192.168.11.69 49417 192.168.11.10 22
+SSH_CONNECTION = 192.168.11.81 52951 192.168.11.10 22
 # environment
-PATH = /home/user/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/remote-cli:/home/user/anaconda3/bin:/home/user/anaconda3/condabin:/opt/slurm/20.02.6/bin:/opt/singularity/3.7.3/bin:/opt/go/1.16.4/bin:/opt/go/1.16.4/pkg/tool/linux_amd64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/user/anaconda3/bin:/home/user/anaconda3/condabin:/opt/slurm/20.02.6/bin:/opt/singularity/3.7.3/bin:/opt/go/1.16.4/bin:/opt/go/1.16.4/pkg/tool/linux_amd64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # makefile (from 'Makefile', line 2)
 LIST2 := pa001 pa002 pa003 pa004 pa005 pa006 pa007 pa008 pa009 pa010 pa011
 # environment
@@ -79,7 +79,7 @@ CONDA_PREFIX = /home/user/anaconda3
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-05d59c11-e42e-493a-9816-ad619347abd3.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-0b2288b5-2475-4133-974a-1700ef4508fa.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -131,9 +131,9 @@ MAKE = $(MAKE_COMMAND)
 # default
 MAKECMDGOALS := all
 # environment
-SHLVL = 0
+SHLVL = 1
 # environment
-XDG_SESSION_ID = 6
+XDG_SESSION_ID = 33
 # environment
 USER = user
 # makefile
@@ -147,8 +147,6 @@ CONDA_SHLVL = 1
 # default
 MAKE_COMMAND := make
 # environment
-OLDPWD = /home/user/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
-# environment
 PATH_modshare = /usr/bin:1:/usr/local/bin:1:/opt/singularity/3.7.3/bin:1:/opt/go/1.16.4/pkg/tool/linux_amd64:1:/bin:1:/opt/slurm/20.02.6/bin:1:/snap/bin:1:/sbin:1:/usr/sbin:1:/usr/games:1:/opt/go/1.16.4/bin:1:/usr/local/sbin:1:/usr/local/games:1
 # default
 .VARIABLES := 
@@ -161,7 +159,7 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
-SSH_CLIENT = 192.168.11.69 49417 22
+SSH_CLIENT = 192.168.11.81 52951 22
 # environment
 LOADEDMODULES = go/1.16.4:singularity/3.7.3:slurm/20.02.6
 # environment
@@ -169,7 +167,7 @@ MODULES_LMNOTUASKED_modshare = go/1.16.4:1
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # environment
-BROWSER = /home/user/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/helpers/browser.sh
+BROWSER = /home/user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/helpers/browser.sh
 # environment
 SALLOC_ACCOUNT = user
 # environment
@@ -211,7 +209,7 @@ MOTD_SHOWN = pam
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=100/1024=10%, Rehash=0, Collisions=10/128=8%
+# Load=99/1024=10%, Rehash=0, Collisions=10/127=8%
 
 # Pattern-specific Variable Values
 
@@ -219,9 +217,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 66310, inode 114831895): 28 files, no impossibilities.
+# . (device 66310, inode 114831895): 29 files, no impossibilities.
 
-# 28 files, no impossibilities in 1 directories.
+# 29 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -278,7 +276,6 @@ all:
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr02.mp4 --output_folder output/sts_result_vibe/ --save_obj
- 
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr03.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa003/pa003_skew_fr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
@@ -293,6 +290,7 @@ all:
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_nr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_nr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+ 
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
@@ -446,7 +444,6 @@ all:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
- 
 #  Last modified 2022-07-01 08:41:18.673933215
 #  File has been updated.
 #  Successfully updated.
@@ -465,12 +462,12 @@ Makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 33 / storage = 296 B / avg = 8 B
-# current buf: size = 8162 B / used = 296 B / count = 33 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 34 / storage = 300 B / avg = 8 B
+# current buf: size = 8162 B / used = 300 B / count = 34 / avg = 8 B
 
-# strcache performance: lookups = 40 / hit rate = 17%
+# strcache performance: lookups = 41 / hit rate = 17%
 # hash-table stats:
-# Load=33/8192=0%, Rehash=0, Collisions=1/40=2%
-# Finished Make data base on Fri Jul 15 09:55:58 2022
+# Load=34/8192=0%, Rehash=0, Collisions=1/41=2%
+# Finished Make data base on Fri Jul 29 13:02:37 2022
 
  
