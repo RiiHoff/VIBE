@@ -8,8 +8,8 @@ def main():
     # create folder and file to save csv
     args = sys.argv
     folder = args[1]
-    input_file_name = './output/sts_result_vibe/' + folder + '/vibe_output.pkl'
-    save_path = './output/sts_result_vibe/' + folder + '/vibe_output'+ folder + '.csv'
+    input_file_name = '/data2/oshima/vibe_output/' + folder + '/vibe_output.pkl'
+    save_path = '/data2/oshima/vibe_output/' + folder + '/' + folder + '.csv'
 
     # create header for csv file
     j_header = mk_3dheader()

@@ -49,7 +49,7 @@ from lib.utils.demo_utils import (
 
  # ========= Addition ========= #
 from lib.utils.pickle2csv import pickle2csv
-from lib.utils.joints import joint_dist
+# from lib.utils.joints import joint_dist
 
 MIN_NUM_FRAMES = 25
 
