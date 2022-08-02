@@ -6,7 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
+<<<<<<< HEAD
 # Make data base, printed on Tue Aug  2 12:29:56 2022
+=======
+# Make data base, printed on Fri Jul 29 13:02:37 2022
+>>>>>>> 92f5d9ecba30087fb96e8033660ed1f2c9ced724
 
 # Variables
 
@@ -59,9 +63,15 @@ VSCODE_CWD = /home/user
 # environment
 _LMFILES__modshare = /opt/modulefiles/singularity/3.7.3:1:/opt/modulefiles/slurm/20.02.6:1:/opt/modulefiles/go/1.16.4:1
 # environment
+<<<<<<< HEAD
 SSH_CONNECTION = 192.168.11.81 52399 192.168.11.10 22
 # environment
 PATH = /home/user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/usr/local/cuda/bin:/home/user/anaconda3/bin:/home/user/anaconda3/condabin:/opt/slurm/20.02.6/bin:/opt/singularity/3.7.3/bin:/opt/go/1.16.4/bin:/opt/go/1.16.4/pkg/tool/linux_amd64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+=======
+SSH_CONNECTION = 192.168.11.81 52951 192.168.11.10 22
+# environment
+PATH = /home/user/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/bin/remote-cli:/home/user/anaconda3/bin:/home/user/anaconda3/condabin:/opt/slurm/20.02.6/bin:/opt/singularity/3.7.3/bin:/opt/go/1.16.4/bin:/opt/go/1.16.4/pkg/tool/linux_amd64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+>>>>>>> 92f5d9ecba30087fb96e8033660ed1f2c9ced724
 # makefile (from 'Makefile', line 2)
 LIST2 := pa001 pa002 pa003 pa004 pa005 pa006 pa007 pa008 pa009 pa010 pa011
 # environment
@@ -79,7 +89,11 @@ CONDA_PREFIX = /home/user/anaconda3
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
+<<<<<<< HEAD
 VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-b157c810-fa5e-4ebe-956d-11bbe0e8d98d.sock
+=======
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-0b2288b5-2475-4133-974a-1700ef4508fa.sock
+>>>>>>> 92f5d9ecba30087fb96e8033660ed1f2c9ced724
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -133,7 +147,11 @@ MAKECMDGOALS := all
 # environment
 SHLVL = 1
 # environment
+<<<<<<< HEAD
 XDG_SESSION_ID = 537
+=======
+XDG_SESSION_ID = 33
+>>>>>>> 92f5d9ecba30087fb96e8033660ed1f2c9ced724
 # environment
 USER = user
 # makefile
@@ -159,7 +177,11 @@ MAKEFLAGS = pqrR
 # environment
 MFLAGS = -pqrR
 # environment
+<<<<<<< HEAD
 SSH_CLIENT = 192.168.11.81 52399 22
+=======
+SSH_CLIENT = 192.168.11.81 52951 22
+>>>>>>> 92f5d9ecba30087fb96e8033660ed1f2c9ced724
 # environment
 LOADEDMODULES = go/1.16.4:singularity/3.7.3:slurm/20.02.6
 # environment
@@ -291,6 +313,7 @@ all:
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_nr04.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_nr05.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp01.mp4 --output_folder output/sts_result_vibe/ --save_obj
+ 
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp02.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fp03.mp4 --output_folder output/sts_result_vibe/ --save_obj
 	python demo.py --vid_file ./sts_data/patient/pa004/pa004_fore_fr01.mp4 --output_folder output/sts_result_vibe/ --save_obj
@@ -469,6 +492,10 @@ Makefile:
 # strcache performance: lookups = 41 / hit rate = 17%
 # hash-table stats:
 # Load=34/8192=0%, Rehash=0, Collisions=1/41=2%
+<<<<<<< HEAD
 # Finished Make data base on Tue Aug  2 12:29:56 2022
+=======
+# Finished Make data base on Fri Jul 29 13:02:37 2022
+>>>>>>> 92f5d9ecba30087fb96e8033660ed1f2c9ced724
 
  
